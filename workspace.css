@@ -121,3 +121,7 @@ button:disabled { opacity: .6; cursor: wait; }
 @media print {
   #navBackdrop { display: none !important; }
 }
+
+.official-home-link { display: inline-flex; align-items: center; min-height: 36px; color: var(--cyan); font-weight: 650; font-size: .8rem; }
+.side .official-home-link { margin: 8px; }
+.official-home-link:hover { text-decoration: underline; }
